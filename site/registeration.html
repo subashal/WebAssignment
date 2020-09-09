@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<style type="text/css">
+		*{
+			background-color: #80ffaa;
+		}
+		#qualification{
+			display: block;
+		}
+		#button1{
+		background-color: #4CAF50;
+		border: none;
+		color: white;
+		font-size: 18px;
+		padding:10px; 
+		}
+		#button2{
+		background-color: #2BB3DF;
+		border: none;
+		color: white;
+		font-size: 18px;
+		padding:10px;
+		margin:10px; 
+		}
+		h2{
+		color:#4CAF50;
+		}
+	</style>
+</head>
+<body>
+	<h2 align="center">Registration</h2>
+<div>
+<fieldset>	
+<form id="form1">
+	<label for="fname">First Name</label>
+	<input type="text" id="fname"name="fname">
+<br>
+<br>
+	<label for="lname">Last Name</label>
+	<input type="text" id="lname" name="lname">
+<br>
+<br>	
+
+<label for="adress">Address</label>
+<textarea id="adress" name="adress" rows="4" cols="50">	
+</textarea>
+	
+<h2>Please select qualification</h2>
+<input type="radio" id="ug" name="qualification">
+<label for="ug">UG</label><br><br>
+<input type="radio" id="ug" name="qualification">
+<label for="ug">PG</label><br><br>
+<input type="radio" id="ug" name="qualification">
+<label for="ug">Phd</label><br><br>
+
+<h2>Please select Citizenship</h2>
+<input type="checkbox" id="india" name="india">
+<label for="india">INDIA</label><br><br>
+<input type="checkbox" id="usa" name="usa">
+<label for="usa">USA</label><br><br>
+<input type="checkbox" id="uk" name="uk">
+<label for="uk">UK</label><br><br>
+<label for="adress"><h2>Visit Experience<h2></label>
+<textarea id="adress" name="adress" rows="8" cols="50">
+</textarea>
+<br>
+<label for="photo"><h2>Please attach a photo</h2></label>
+<input type="file" id="img" name="img" accept="image/*">
+<br><br>
+<button id="button1" type="submit" form="form1" value="submit">Submit</button>
+<button id="button2" type="reset" form="form1">Reset</button>
+</form>
+</fieldset>
+</div>
+</body>
+</html>
